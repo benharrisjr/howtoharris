@@ -12,3 +12,20 @@ nav {
   padding: 20px;
   height: 80px;
 }
+
+@font-face {
+  font-family: Amatic;
+  src: url(../fonts/AmaticSC-Bold.ttf);
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h1, h2 {
+  font-family: Amatic;
+}
+a {
+  color: #222;
+}

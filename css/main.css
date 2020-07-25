@@ -79,3 +79,18 @@ a {
   background-color: #fff;
   border-radius: 10px;
 }
+.halikai {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(../halikai.jpg);background-size: cover;
+  height:400px;
+  position: relative;
+  padding:0;
+}
+
+@media only screen and (max-width: 600px) {
+  .halikai {
+    background-position-y: -90%;
+  }
+}

@@ -21,6 +21,9 @@ h2 {
 h1, h2 {
   font-family: Amatic;
 }
+h3 {
+  margin: 0;
+}
 a {
   color: #222;
 }
@@ -68,4 +71,26 @@ a {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.card {
+  padding: 12px 24px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.halikai {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-image: url(../halikai.jpg);background-size: cover;
+  height:400px;
+  position: relative;
+  padding:0;
+}
+
+@media only screen and (max-width: 600px) {
+  .halikai {
+    background-position-y: -90%;
+  }
 }

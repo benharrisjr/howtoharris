@@ -7,6 +7,6 @@ function myFunction() {
     icon.style.bottom = "0";
   } else {
     x.style.display = "block";
-    icon.style.bottom = "144px";
+    icon.style.bottom = "384px";
   }
 }

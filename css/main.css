@@ -129,16 +129,19 @@ a {
   height: auto;
   margin: auto;
 }
+.legal {
+  text-align: center;
+  font-size: 10px;
+}
 .social-footer {
   text-align: center;
   font-size: 10px;
-  height: 80px;
+  height: 60px;
   position: fixed;
   bottom: 0;
-  background-color: #ccc;
+  background-color: rgb(240, 208, 199);
   width: 100%;
   padding-top: 20px;
-  border-top: 2px solid black;
 }
 .content {
   max-width: 800px;

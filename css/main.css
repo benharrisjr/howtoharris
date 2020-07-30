@@ -30,6 +30,12 @@ a {
 .center {
   margin: auto;
 }
+.center-text { 
+  text-align: center;
+}
+.block {
+  display: block;
+}
 .center>img {
   display: block;
 }
@@ -40,7 +46,9 @@ a {
 
 /* Style the navigation menu */
 .topnav {
-  background-color: #333;
+  /* background-color: #333; */
+  /* background-color: #a3b1d8; */
+  background-color: #fff;
   position: relative;
   z-index: 2;
 }
@@ -48,6 +56,7 @@ a {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  border: 1px solid black;
 }
 
 /* Style navigation menu links */
@@ -62,11 +71,22 @@ a {
   outline: none;
 }
 .topnav a {
-  color: white;
+  color: black;
+  /* color: #232121; */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+  border-bottom: 2px solid black;
+}
+.topnav a:last-child {
+  border-bottom: none;
+}
+.topnav .active {
+  background-color: #000;
+}
+.topnav a.active {
+  color: #fff;
 }
 
 /* Style the hamburger menu */
@@ -94,7 +114,40 @@ a {
   position: relative;
   padding:0;
 }
-
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.left-column-card {
+  margin: 12px 6px 12px 12px;
+}
+.right-column-card {
+  margin: 12px 12px 12px 6px;
+}
+.affiliate-image {
+  width: 80px;
+  height: auto;
+  margin: auto;
+}
+.social-footer {
+  text-align: center;
+  font-size: 10px;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  background-color: #ccc;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 2px solid black;
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.right-margin30 {
+  margin-right:30px;
+}
 @media only screen and (max-width: 600px) {
   .halikai {
     background-position-y: -90%;

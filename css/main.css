@@ -105,6 +105,9 @@ a {
   background-color: #fff;
   border-radius: 10px;
 }
+.bold {
+  font-weight: 800;
+}
 .halikai {
   margin: 20px;
   background-color: #fff;
